@@ -16,10 +16,15 @@ h1, h2, h3 {
 }
 
 aside {
+	display: flex;
+	flex-direction: column;
 	float: right;
-	margin: 10em;
-	right: 25%;
-	top: 25%;
+	height: 300px;
+	width: 50%;
+	margin: auto;
+	bottom: 500px;
+
+	
 }
 
 footer {
@@ -36,7 +41,9 @@ img {
 }
 
 main {
+	
 	margin: 10em;
+	padding-right: 5em;
 
 }
 
