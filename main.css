@@ -15,18 +15,18 @@ h1, h2, h3 {
 	font-family: 'Rakkas', cursive;
 }
 
-aside {
+aside, main, nav {
 	display: flex;
-	flex-direction: column;
-	float: right;
-	height: 300px;
-	width: 50%;
-	margin: auto;
-	bottom: 500px;
-
-	
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 35em;
+	padding: 1em;
 }
-
+aside {
+	float: right;
+	margin: 2em;
+}
+`
 footer {
 
 }
@@ -41,18 +41,29 @@ img {
 }
 
 main {
+	align-content: center;
+}
+
+/* main {
 	
 	margin: 10em;
 	padding-right: 5em;
+	flex-wrap: wrap;
+	width: auto;
 
+
+} */
+
+nav{
+	float: left;
 }
 
-nav {
+/* nav {
 	position: relative;
 	float: left;
 
 
-}
+} */
 
 #copyright {
 	font-size: 80%;
