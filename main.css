@@ -21,14 +21,18 @@ aside, main, nav {
 	flex-wrap: wrap;
 	width: 35em;
 	padding: 1em;
+	align-items: baseline;
+	flex-basis: 50%;
 }
 aside {
 	float: right;
 	margin: 2em;
 }
-`
 footer {
-
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	clear: both;
 }
 
 header {
